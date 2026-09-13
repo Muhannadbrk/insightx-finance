@@ -1,0 +1,15 @@
+{
+  "name": "insightx-finance",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive SME financial analytics and decision-support prototype",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node tests/check.mjs",
+    "check": "node --check dist/app.js && node --check dist/finance.js"
+  },
+  "devDependencies": { "jsdom": "30.0.1" }
+}
